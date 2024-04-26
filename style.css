@@ -1,0 +1,40 @@
+body
+{
+background-color:#000000;
+text-align: center;
+}
+
+h1
+{
+  text-align: center;
+  color:rgb(255, 255, 255);
+  background-color: #000000;
+  margin-right: 100px ;
+}
+
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(0, 0, 0);}
+  to {box-shadow: 1px 1px 38px rgb(7, 175, 241);}
+
+}
+
+
+p
+  {
+    padding-top:10px;
+    font-size:25px;
+    
+  }
+
